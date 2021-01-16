@@ -1,0 +1,8 @@
+{
+    "watch": ["*"],
+    "ext": "go",
+    "exec": "(go build -o bin/api.exe || exit 1) && .\\bin\\api.exe",
+    "events": {
+        "start": "cls || clear"
+    }
+}
